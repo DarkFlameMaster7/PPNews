@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="60dp"
+	android:orientation="vertical">
+	<!-- 高度设置为50  和标题保持一致 -->
+
+	<LinearLayout
+		android:id="@+id/tel_popup_window_main"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:background="#F5F7F2">
+		<EditText
+		    android:id="@+id/search_edittext"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+		    android:hint="请输入关键字"
+		    android:drawableLeft="@drawable/ic_hint_search"
+		    android:layout_marginTop="10dp"
+            android:textSize="18sp"
+			android:maxLines="1"
+			android:textColor="#434343"
+		    android:imeOptions="actionSearch"
+		    />
+	</LinearLayout>
+</LinearLayout>

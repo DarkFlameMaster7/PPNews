@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ppworks.ppnews.widget.refresh.RefreshLayout
+    android:id="@+id/refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ppworks.ppnews.widget.AutoLoadMoreRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.ppworks.ppnews.widget.ThreePointLoadingView
+        android:id="@+id/tpl_view"
+        app:pointColor="?attr/pointColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+</com.ppworks.ppnews.widget.refresh.RefreshLayout>
